@@ -1,0 +1,8 @@
+.env
+.git
+data/
+docs/
+tests/
+__pycache__/
+*.pyc
+.pytest_cache/

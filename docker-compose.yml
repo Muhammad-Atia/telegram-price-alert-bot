@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data      # SQLite file: alerts survive restarts and rebuilds
+    restart: unless-stopped
